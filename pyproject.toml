@@ -4,12 +4,12 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "tlnk"
-version = "1.0.2"
+version = "1.0.3"
 description = "Central  test DS/DE library for scraping and data transformation"
 requires-python = ">=3.8"
 dependencies = [
     "requests,
-    "beautifulsoup4",
+    "beautifulsoup4"
 ]
 
 [tool.setuptools.packages.find]
